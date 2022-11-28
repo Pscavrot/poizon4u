@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="favicon-32x32.png">
+        <link  href="Style.css"  rel="stylesheet" >
+        <title>POIZON</title>
+        
+        </head>
+        <body background="фон.jpg" widht="100%">
+            <style>
+            .smalcart
+            {
+            text-align: right; 
+            }
+            * {
+               box-sizing: border-box;
+            }
+            .product-wrap {
+               width: 300px;
+               margin: 0 auto;
+               background: white;
+               padding: 0 0 20px;
+               text-align: center;
+               font-size: 14px;
+               font-family: Lora;
+               text-transform: uppercase;
+            }
+            .product-item {
+               position: relative;
+               overflow: hidden;
+            }
+            .product-wrap img {
+               display: block;
+               width: 100%;
+            }
+            .product-buttons {
+               position: absolute;
+               left: 0;
+               top: 0;
+               width: 100%;
+               height: 100%;
+               background: rgba(0, 0, 0, .8);
+               opacity: 0;
+               transition: .3s ease-in-out;
+            }
+            .button {
+               text-decoration: none;
+               color: #c0a97a;
+               font-size: 12px;
+               width: 140px;
+               height: 40px;
+               line-height: 40px;
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               border: 2px solid #c0a97a;
+               transform: translate(-50%, -50%) scale(0);
+               transition: .3s ease-in-out;
+            }
+            .button:before {
+               content: "\f07a";
+               font-family: FontAwesome;
+               margin-right: 10px;
+            }
+            .product-item:hover .product-buttons {
+               opacity: 1;
+            }
+            .product-item:hover .button {
+               transform: translate(-50%, -50%) scale(1);
+            }
+            .button:hover {
+               background: black;
+            }
+            .product-title
+            {
+               color: white;
+            }
+            .product-title a {
+               text-decoration: none;
+               color: #2e2e2e;
+               font-weight: 600;
+               margin: 15px 0 5px;
+               padding-bottom: 7px;
+               display: block;
+               position: relative;
+               transition: .3s ease-in-out;
+            }
+            .product-title a:after {
+               content: "";
+               position: absolute;
+               width: 40px;
+               height: 2px;
+               background: #2e2e2e;
+               left: 50%;
+               margin-left: -20px;
+               bottom: 0;
+               transition: .3s ease-in-out;
+            }
+            .product-title a:hover {
+               color: #c0a97a;
+            }
+            .product-title:hover a:after {
+               background: #c0a97a;
+            }
+            .product-price {
+               font-size: 20px;
+               color: #c0a97a;
+               font-weight: 700;
+            }
+            .p7
+            {
+            font-size: 30px ;
+            text-align: left; 
+            }
+            a.button8 {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+} 
+a.button8:hover { background: rgba(41, 41, 41, 0.2); }
+a.button8:active { background: rgb(215, 255, 206); }
+            </style>
+
+               <div id="head"><p><a href="главная.html"><img src="" width="6%" class="fig"></a><b></b> 
+                <a href="главная.html" class="button8">главная</a>
+                <a href="архив.html" class="button8">архив</a>
+                <a href="#sv" class="button8">cвязаться со мной</a>
+               </p>
+               </div>
+            <div id="lef">
+                
+                    <img src="отз1.jpg">
+                    <br>
+                    <img src="щтз2.jpg">
+                    <br>
+                    <img src="отз3.jpg">
+                    <br>
+                    <img src="отз4.jpg">
+                
+                    <p>
+                  </div> 
+              
+            </div>
+            
+        </body>
+        <footer>
+            <a name="sv">
+            <p id="p1" >
+                <b>ㅤCвязаться со мной: </b>
+            <br>
+                ㅤ
+                <a href="https://vk.com/s0glas4n"><img src="https://cdn-icons-png.flaticon.com/512/4494/4494490.png" width="4%" ></a>
+                <a href="https://www.avito.ru/user/c68c69eedd33aea52a5b3eda76cb3c00/profile?src=sharing"><img src="free-png.ru-478.png" width="4%" ></a>
+            </p>
+            </a>
+        </footer>
+</html>
